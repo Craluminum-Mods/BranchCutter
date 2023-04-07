@@ -1,0 +1,12 @@
+{
+    "type": "code",
+    "side": "universal",
+    "modid": "branchcutter",
+    "name": "Branch Cutter",
+    "description": "Drops leaves block when breaking leaves block with shears in the leaves tool mode",
+    "authors": ["Craluminum2413"],
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.18.0-rc.2"
+    }
+}
