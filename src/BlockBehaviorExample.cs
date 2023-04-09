@@ -23,5 +23,5 @@ public class BlockBehaviorDropLeaves : BlockBehavior
         return base.GetDrops(world, pos, byPlayer, ref dropChanceMultiplier, ref handling);
     }
 
-    bool IsShears(ItemSlot slot) => slot.Itemstack.Collectible is ItemShears;
+    bool IsShears(ItemSlot slot) => slot?.Itemstack?.Collectible is ItemShears;
 }
